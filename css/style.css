@@ -10,6 +10,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.sidebar ul {
+    list-style: none;
+    padding-inline-start:0;
+}
+
+.sidebar li {
+    list-style: none;
+    padding: .4em;
+}
+
 
 
 

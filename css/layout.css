@@ -9,7 +9,6 @@
 .header {
     grid-area: header;
     padding: 1rem;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,5 +29,9 @@
 
 .footer {
     grid-area: footer;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: grey;
 }
