@@ -4,19 +4,25 @@
 body {
     padding: 0;
     margin: 0;
+    font-size: 16px;
+}
+
+p {
+    font-size: 1.1rem;
 }
 
 .wrapper {
     display: grid;
-    grid-template-rows: 10vh 70vh 20vh;
-    grid-template-areas:
-    "top top top"
-    "main main sd"
-    "footer footer footer";
+    grid:
+    'header header header header header header'
+    'menu main main main main right'
+    'menu footer footer footer footer footer';
+    background-color: #2196F3;
 }
 
 .header {
-    grid-area: top;
+    grid-area: header;
+    padding: 1rem;
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -25,11 +31,22 @@ body {
 
 .content {
     grid-area: main;
-    background-color: wheat;
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    grid-gap: 2rem;
+    padding: 2rem;
+    background-color: #2196F3;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
 }
 
 .sidebar {
-    grid-area: sd;
+    grid-area: right;
     background-color: black;
 }
 
