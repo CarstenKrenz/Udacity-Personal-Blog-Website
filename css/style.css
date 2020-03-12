@@ -1,56 +1,15 @@
 @import 'cards.css';
 @import 'typo.css';
+@import 'layout.css';
+@import 'queries.css';
 
 body {
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
 }
 
-p {
-    font-size: 1.1rem;
-}
 
-.wrapper {
-    display: grid;
-    grid:
-    'header header header header header header'
-    'menu main main main main right'
-    'menu footer footer footer footer footer';
-    background-color: #2196F3;
-}
 
-.header {
-    grid-area: header;
-    padding: 1rem;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.content {
-    grid-area: main;
-    grid-template-columns: repeat(4,1fr);
-    display: grid;
-    grid-gap: 2rem;
-    padding: 2rem;
-    background-color: #2196F3;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-}
-
-.sidebar {
-    grid-area: right;
-    background-color: black;
-}
-
-.footer {
-    grid-area: footer;
-    background-color: blueviolet;
-}
