@@ -1,3 +1,39 @@
 @import 'cards.css';
 @import 'typo.css';
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 10vh 70vh 20vh;
+    grid-template-areas:
+    "top top top"
+    "main main sd"
+    "footer footer footer";
+}
+
+.header {
+    grid-area: top;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    grid-area: main;
+    background-color: wheat;
+}
+
+.sidebar {
+    grid-area: sd;
+    background-color: black;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: blueviolet;
+}
