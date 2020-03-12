@@ -7,8 +7,9 @@ p {
 h1,
 h2,
 h3 {
-    font-family: 'Merriweather', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 200;
+    color: black;
 }
 
 h2 {

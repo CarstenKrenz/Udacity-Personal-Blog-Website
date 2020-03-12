@@ -1,4 +1,7 @@
 .wrapper {
+    max-width: 1200px;
+    margin: auto;
+    align-self: center;
     display: grid;
     grid:
         'header header header header header header'
