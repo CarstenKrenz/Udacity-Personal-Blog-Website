@@ -11,6 +11,11 @@ body {
     color: grey;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .sidebar ul {
     list-style: none;
     padding-inline-start:0;

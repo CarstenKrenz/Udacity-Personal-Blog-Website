@@ -5,8 +5,20 @@
     display: grid;
     grid:
         'header header header header header header'
-        'menu main main main main right'
+        'main main main main main right'
         'footer footer footer footer footer footer';
+}
+
+.wrapper-sub {
+    max-width: 1200px;
+    margin: auto;
+    align-self: center;
+    padding: 1em;
+    display: grid;
+    grid:
+        'header'
+        'main'
+        'footer';
 }
 
 .header {
@@ -23,6 +35,13 @@
     display: grid;
     grid-gap: 2rem;
     padding: 2rem;
+}
+
+.content-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar {
