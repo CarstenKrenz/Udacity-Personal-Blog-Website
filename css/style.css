@@ -11,11 +11,6 @@ body {
     color: grey;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .sidebar ul {
     list-style: none;
     padding-inline-start:0;
@@ -27,6 +22,15 @@ a {
     border-bottom: 1px solid lightgrey;
 }
 
+i{
+    font-size: 2em; color: black;
+    transition: all .1s;
+}
 
+i:hover{
+    transform: scale(1.2);
+    color: teal !important;
+    transition: all .1s;
+}
 
 
